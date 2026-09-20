@@ -1,0 +1,72 @@
+{
+  "scope": "fixed synthetic left/right targets, seed 64, same 30 control iterations per mode; no webcam or SDK",
+  "passed": true,
+  "results": [
+    {
+      "mode": "fly",
+      "target": -0.4875,
+      "steps": 30,
+      "first_centered_step": 9,
+      "centered_samples": 21,
+      "wrong_direction_steps": 0,
+      "final_pan": -27,
+      "final_error": -0.11249999999999999,
+      "hidden_target_stops": true
+    },
+    {
+      "mode": "fly",
+      "target": 0.375,
+      "steps": 30,
+      "first_centered_step": 7,
+      "centered_samples": 23,
+      "wrong_direction_steps": 0,
+      "final_pan": 21,
+      "final_error": 0.08333333333333331,
+      "hidden_target_stops": true
+    },
+    {
+      "mode": "baseline",
+      "target": -0.4875,
+      "steps": 30,
+      "first_centered_step": 9,
+      "centered_samples": 21,
+      "wrong_direction_steps": 0,
+      "final_pan": -27,
+      "final_error": -0.11249999999999999,
+      "hidden_target_stops": true
+    },
+    {
+      "mode": "baseline",
+      "target": 0.375,
+      "steps": 30,
+      "first_centered_step": 7,
+      "centered_samples": 23,
+      "wrong_direction_steps": 0,
+      "final_pan": 21,
+      "final_error": 0.08333333333333331,
+      "hidden_target_stops": true
+    },
+    {
+      "mode": "disconnected",
+      "target": -0.4875,
+      "steps": 30,
+      "first_centered_step": null,
+      "centered_samples": 0,
+      "wrong_direction_steps": 0,
+      "final_pan": 0,
+      "final_error": -0.4875,
+      "hidden_target_stops": true
+    },
+    {
+      "mode": "disconnected",
+      "target": 0.375,
+      "steps": 30,
+      "first_centered_step": null,
+      "centered_samples": 0,
+      "wrong_direction_steps": 0,
+      "final_pan": 0,
+      "final_error": 0.375,
+      "hidden_target_stops": true
+    }
+  ]
+}

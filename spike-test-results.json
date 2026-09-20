@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "test": "25 step payloads exactly match direct model execution with the same seed and stimulus",
+  "network_neurons": 166700,
+  "positioned_neurons": 140638,
+  "missing_coordinates": 26062,
+  "sampled_real_edges": 45859,
+  "shown_spike_events": 95269,
+  "raw_spike_events": 124708,
+  "not_proven": "Biological realism, anatomical neurite reconstruction, or reference video replication"
+}
