@@ -117,7 +117,7 @@ class Handler(BaseHTTPRequestHandler):
         if self.path == '/api/health':
             return self.send(200, {'ready': True, 'neurons': attention.brain.n,
                                    'camera': 'simulated', 'sdk': 'not_connected'})
-        routes = {'/': 'index.html', '/app.js': 'app.js', '/style.css': 'style.css',
+        routes = {'/': 'index.html', '/app.js': 'app.js', '/detector.js': 'detector.js', '/style.css': 'style.css',
                   '/brain.js': 'brain.js', '/vendor/three.module.min.js': 'vendor/three.module.min.js',
                   '/vendor/OrbitControls.js': 'vendor/OrbitControls.js'}
         if self.path not in routes:
